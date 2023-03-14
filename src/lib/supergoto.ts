@@ -4,6 +4,7 @@ interface SupergotoOptions {
 	replaceState?: boolean;
 	noScroll?: boolean;
 	keepFocus?: boolean;
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	state?: any;
 	invalidateAll?: boolean;
 	external?: boolean;
