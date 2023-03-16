@@ -1,5 +1,6 @@
-<img align="center" src="https://raw.githubusercontent.com/harshmandan/supergoto/main/logo.svg"></img>
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/harshmandan/supergoto/main/logo.svg"></img>
+</p>
 # Supergoto
 
 Extension of svelte's `goto` module with additional navigation options and URL Search parameters management.
