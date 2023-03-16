@@ -5,7 +5,8 @@
 
 <div class="flex flex-col items-center">
 	<img alt="Supergoto" src="/logo.svg" />
-
+</div>
+<div>
 	<Button
 		on:click={() => supergoto('/about', { preserveHashParams: true, preserveSearchParams: true })}
 	>
