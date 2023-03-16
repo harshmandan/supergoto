@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/harshmandan/supergoto/main/static/logo.svg"></img>
-</p>
+![https://supergoto.netlify.app](https://raw.githubusercontent.com/harshmandan/supergoto/main/static/logo.svg)
 
 # Supergoto
 
@@ -8,7 +6,9 @@ Extension of sveltekit's `goto` module with additional navigation options and UR
 
 # What it does
 
-Supergoto builds upon Sveltekit's inbuilt `goto` module to better handle the navigation actions. Since it's built on top of the existing module and uses the same options and API you do not have to un-learn anything. It adds functionality on top of the existing API to handle URL search and has parameters and adds safe ways to manipulate those parameters along with some other additional features!
+Supergoto builds upon Sveltekit's inbuilt `goto` module to better handle the navigation actions. Since it's built on top of the existing module and uses the same options and API you do not have to un-learn anything. It adds functionality on top of the existing API to handle URL search and has parameters and adds safe ways to manipulate those parameters along with some other additional features.
+
+At the moment only Sveltekit is supported.
 
 # Features
 
