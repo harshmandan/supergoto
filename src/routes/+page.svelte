@@ -1,3 +1,19 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import { supergoto, updateURLHashParams, updateURLSearchParams } from '$lib/supergoto';
+</script>
+
+<h1>Supergoto</h1>
+
+<button
+	on:click={() => supergoto('/about', { preserveHashParams: true, preserveSearchParams: true })}
+>
+	Navigate to the About page
+</button>
+
+<button on:click={() => updateURLHashParams({ foo: 'bar' }, { replace: true })}>
+	Update hash params
+</button>
+
+<button on:click={() => updateURLSearchParams({ foo: 'bar' }, { replace: true })}>
+	Update search params
+</button>
