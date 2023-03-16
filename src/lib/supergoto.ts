@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { goto } from '$app/navigation';
 import * as devalue from 'devalue';
 
