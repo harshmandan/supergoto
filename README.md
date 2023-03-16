@@ -1,4 +1,4 @@
-<img align="center" src="https://github.com/harshmandan/supergoto/blob/main/static/logo.svg?raw=true"></img>
+<img align="center" src="https://raw.githubusercontent.com/harshmandan/supergoto/828d8bc25979786bac3fd239cf652208bedbabcd/logo.svg?raw=true"></img>
 
 # Supergoto
 
