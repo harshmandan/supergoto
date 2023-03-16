@@ -4,11 +4,11 @@
 
 # Supergoto
 
-Extension of svelte's `goto` module with additional navigation options and URL Search parameters management.
+Extension of sveltekit's `goto` module with additional navigation options and URL Search parameters management.
 
 # What it does
 
-Supergoto builds upon Svelte's inbuilt `goto` module to better handle the navigation actions. Since it's built on top of the existing module and uses the same options and API you do not have to un-learn anything. It adds functionality on top of the existing API to handle URL search and has parameters and adds safe ways to manipulate those parameters along with some other additional features!
+Supergoto builds upon Sveltekit's inbuilt `goto` module to better handle the navigation actions. Since it's built on top of the existing module and uses the same options and API you do not have to un-learn anything. It adds functionality on top of the existing API to handle URL search and has parameters and adds safe ways to manipulate those parameters along with some other additional features!
 
 # Features
 
@@ -24,6 +24,7 @@ Supergoto builds upon Svelte's inbuilt `goto` module to better handle the naviga
 - [ ] Simplify API by merging hash and search params options
 - [ ] Use JSON.parse() & JSON.stringify() to support serializing/deserializing value types other than `string`
 - [ ] Interactive demo
+- [ ] Option to navigate and hard-refresh
 - [ ] Add JSDocs reference to all definitions
 - [ ] Make this library framework agnostic
 
