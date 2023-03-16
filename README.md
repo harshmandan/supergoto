@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/harshmandan/supergoto/main/logo.svg"></img>
+  <img src="https://raw.githubusercontent.com/harshmandan/supergoto/main/static/logo.svg"></img>
 </p>
 
 # Supergoto
