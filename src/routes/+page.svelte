@@ -1,19 +1,22 @@
 <script lang="ts">
 	import { supergoto, updateURLHashParams, updateURLSearchParams } from '$lib/supergoto';
+	import Button from '$components/button/Button.svelte';
 </script>
 
-<h1>Supergoto</h1>
+<div class="flex flex-col items-center">
+	<img alt="Supergoto" src="/logo.svg" />
 
-<button
-	on:click={() => supergoto('/about', { preserveHashParams: true, preserveSearchParams: true })}
->
-	Navigate to the About page
-</button>
+	<Button
+		on:click={() => supergoto('/about', { preserveHashParams: true, preserveSearchParams: true })}
+	>
+		Navigate to the About page
+	</Button>
 
-<button on:click={() => updateURLHashParams({ foo: 'bar' }, { replace: true })}>
-	Update hash params
-</button>
+	<Button on:click={() => updateURLHashParams({ foo: 'bar' }, { replace: true })}>
+		Update hash params
+	</Button>
 
-<button on:click={() => updateURLSearchParams({ foo: 'bar' }, { replace: true })}>
-	Update search params
-</button>
+	<Button on:click={() => updateURLSearchParams({ foo: 'bar' }, { replace: true })}>
+		Update search params
+	</Button>
+</div>
