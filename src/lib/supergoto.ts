@@ -13,7 +13,7 @@ const paramSymbol: Record<URLParam, string> = {
 
 const notAllowedProtocols = ['javascript:', 'script:'];
 
-interface SupergotoOptions {
+export interface SupergotoOptions {
 	replaceState?: boolean;
 	noScroll?: boolean;
 	keepFocus?: boolean;
