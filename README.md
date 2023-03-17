@@ -2,7 +2,7 @@
 
 # Supergoto
 
-Extension of sveltekit's `goto` module with additional navigation options and URL Search parameters management.
+Extension of sveltekit's `goto` module with more navigation options and URL Search parameters management.
 
 # What it does
 
